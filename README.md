@@ -1,5 +1,21 @@
 # Verification of SLSA provenance
 
+## :warning: This is a fork of slsa-framework/slsa-verifier
+
+2023-03-10 [#1718](https://github.com/aquaproj/aqua/issues/1718)
+
+We forked [slsa-framework/slsa-verifier](https://github.com/slsa-framework/slsa-verifier) to release pre-built binaries for various platforms (windows, macOS, linux / amd64, arm64).
+
+Unfortunately, slsa-verifier CLI is released only for linux/amd64 at the moment (2023-03-10).
+
+- https://github.com/slsa-framework/slsa-verifier/issues/397
+- https://github.com/slsa-framework/slsa-verifier/pull/434
+
+When slsa-framework/slsa-verifier will release pre-built binaries for various platforms, we will migrate to slsa-framework/slsa-verifier and archive this repository.
+We have no plan to maintain this repository actively.
+
+---
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-verifier/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-verifier)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/6729/badge)](https://bestpractices.coreinfrastructure.org/projects/6729)
 [![Go Report Card](https://goreportcard.com/badge/github.com/slsa-framework/slsa-verifier)](https://goreportcard.com/report/github.com/slsa-framework/slsa-verifier)
