@@ -1,5 +1,11 @@
 # Verification of SLSA provenance
 
+## :warning: This repository was archived
+
+2023-03-15 slsa-verifier v2.1.0 has been released. So we archived this repository.
+
+https://github.com/slsa-framework/slsa-verifier/releases/tag/v2.1.0
+
 ## :warning: This is a fork of slsa-framework/slsa-verifier
 
 2023-03-10 [#1718](https://github.com/aquaproj/aqua/issues/1718)
